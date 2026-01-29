@@ -35,9 +35,9 @@ const LandingPage = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <div className="w-full px-4">
+          <div className="container px-4 mx-auto">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Como a assistente Emília funciona</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">Como a assistente Emília funciona</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 Já se perdeu entre gastos, compromissos ou levou um susto com a fatura do cartão? A Emília resolve isso de forma simples e organizada, direto pelo WhatsApp.
               </p>

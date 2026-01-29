@@ -84,7 +84,12 @@ const LandingHero = () => {
           </motion.div>
 
           {/* Lado Direito – Telefone + cards flutuantes */}
-          <div className="relative order-1 md:order-2 h-[420px] md:h-[520px] lg:h-[600px] xl:h-[640px] pointer-events-none select-none" aria-hidden>
+          <div className="order-1 md:order-2 flex flex-col items-center">
+            <p className="text-sm sm:text-base font-medium text-muted-foreground text-center mb-6 max-w-lg mx-auto leading-relaxed">
+              Você ainda tenta controlar tudo de cabeça, se perde em planilhas, anotações e nunca sabe exatamente para onde seu dinheiro está indo?
+            </p>
+            
+            <div className="relative w-full h-[420px] md:h-[520px] lg:h-[600px] xl:h-[640px] pointer-events-none select-none" aria-hidden>
             {/* Mockup do iPhone */}
             <img
               src="/mockup-topo.png"
@@ -178,6 +183,7 @@ const LandingHero = () => {
           </div>
         </div>
       </div>
+    </div>
     </section>
   );
 };
