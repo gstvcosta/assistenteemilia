@@ -48,7 +48,7 @@ const LandingHero = () => {
             transition={{ duration: 0.6 }}
             className="order-2 md:order-1 text-center md:text-left"
           >
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 md:mb-6" style={{letterSpacing: '-0.02em', lineHeight: '1.3'}}>
+            <h1 className="text-3xl sm:text-4xl md:text-[55px] font-extrabold leading-tight mb-4 md:mb-6" style={{letterSpacing: '-0.02em', lineHeight: '1.3'}}>
               <span className="block dv-brand-text">{productName}</span>
               <span className="block text-foreground">Tenha uma assistente financeira 24h cuidando do seu dinheiro por você</span>
             </h1>

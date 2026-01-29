@@ -42,7 +42,7 @@ const LandingConversation = () => {
                     {[...items, ...items, ...items, ...items].map((text, index) => (
                         <span
                             key={index}
-                            className="bg-muted/50 dark:bg-muted/30 border border-primary/10 rounded-full px-6 py-3 text-sm md:text-base text-muted-foreground whitespace-nowrap hover:border-primary/30 hover:bg-muted/80 transition-colors"
+                            className="bg-accent text-white rounded-full px-6 py-3 text-sm md:text-base whitespace-nowrap shadow-md hover:bg-accent/90 transition-colors"
                         >
                             {text}
                         </span>

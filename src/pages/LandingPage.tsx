@@ -15,11 +15,11 @@ const LandingPage = () => {
   const resolvedName = import.meta.env.VITE_COMPANY_NAME || 'Poupe Já';
 
   return (
-    <div className="dv-theme min-h-screen w-full overflow-x-hidden bg-gradient-to-br from-background via-muted/20 to-background flex flex-col text-foreground">
+    <div className="dv-theme min-h-screen w-full bg-gradient-to-br from-background via-muted/20 to-background flex flex-col text-foreground">
       <LandingHeader />
 
       <motion.main
-        className="flex-1 overflow-x-hidden"
+        className="flex-1"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
@@ -35,7 +35,7 @@ const LandingPage = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <div className="container px-4 mx-auto">
+          <div className="w-full px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">Como a assistente Emília funciona</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -61,7 +61,7 @@ const LandingPage = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-lg text-white font-bold text-lg mb-6 shadow-lg" style={{boxShadow: '0 0 20px rgba(99, 102, 241, 0.4)'}}>
                 01
               </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 sm:mb-6">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-4 sm:mb-6">
                 Registre tudo pelo WhatsApp
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 leading-relaxed">
@@ -114,7 +114,7 @@ const LandingPage = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-lg text-white font-bold text-lg mb-6 shadow-lg" style={{boxShadow: '0 0 20px rgba(99, 102, 241, 0.4)'}}>
                 02
               </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 sm:mb-6">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-4 sm:mb-6">
                 Dashboard completo e intuitivo
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 leading-relaxed">
@@ -181,7 +181,7 @@ const LandingPage = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-lg text-white font-bold text-lg mb-6 shadow-lg" style={{boxShadow: '0 0 20px rgba(99, 102, 241, 0.4)'}}>
                 03
               </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 sm:mb-6">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-4 sm:mb-6">
                 Compromissos
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 leading-relaxed">

@@ -23,7 +23,7 @@ const LandingHeader = () => {
 
   return (
     <motion.header 
-      className="sticky top-0 z-50 bg-background/70 backdrop-blur-xl border-b border-primary/20 w-full overflow-x-hidden"
+      className="sticky top-0 z-50 bg-background/70 backdrop-blur-xl border-b border-primary/20 w-full"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
