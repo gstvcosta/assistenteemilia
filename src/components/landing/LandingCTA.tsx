@@ -27,7 +27,7 @@ const LandingCTA = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          style={{boxShadow: '0 20px 60px rgba(99, 102, 241, 0.5)'}}
+          style={{boxShadow: '0 20px 60px rgba(242, 159, 5, 0.4)'}}
         >
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
             Pare de tentar lembrar tudo de cabeça
