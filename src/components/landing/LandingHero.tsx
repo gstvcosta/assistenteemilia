@@ -50,11 +50,11 @@ const LandingHero = () => {
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 md:mb-6" style={{letterSpacing: '-0.02em', lineHeight: '1.3'}}>
               <span className="block dv-brand-text">{productName}</span>
-              <span className="block text-foreground">Gerencie suas finanças com clareza direto pelo WhatsApp</span>
+              <span className="block text-foreground">Tenha uma assistente financeira 24h cuidando do seu dinheiro por você</span>
             </h1>
 
             <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-xl mb-6 md:mb-8 leading-relaxed mx-auto md:mx-0">
-              Monitore despesas, alcance metas e visualize relatórios sem complicação. Controle financeiro descomplicado no seu dia a dia.
+              Registre gastos e compromissos pelo WhatsApp, acompanhe tudo em relatórios claros e tome decisões financeiras sem complicação.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center md:justify-start">
