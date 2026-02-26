@@ -81,12 +81,21 @@ const LandingPricing = () => {
     <section className="py-24 w-full" id="planos">
       <div className="w-full px-4">
         <motion.div
-          className="flex justify-center mb-12"
+          className="flex flex-col items-center justify-center mb-24"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
+              Entenda na prática como a Emilia pode te ajudar
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Confira o vídeo abaixo para entender todos os detalhes e ver na prática como tudo funciona.
+            </p>
+          </div>
+
           <div className="w-full max-w-[300px] aspect-[9/16] rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 bg-black">
             <iframe 
               width="100%" 
