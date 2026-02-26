@@ -87,6 +87,20 @@ const LandingPricing = () => {
           transition={{ duration: 0.6 }} 
           viewport={{ once: true }}
         >
+          {/* Vídeo do YouTube Shorts */}
+          <div className="flex justify-center mb-12">
+            <div className="relative w-full max-w-[300px] aspect-[9/16] rounded-3xl overflow-hidden shadow-2xl border-8 border-gray-900 bg-black">
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/bLFGpfYGOzk"
+                title="Assistente Emília"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
             Escolha como quer organizar sua vida financeira
           </h2>
